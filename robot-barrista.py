@@ -13,6 +13,8 @@ order = input("What can I get you? We offer " + menu + "\n")
 
 print("Oh, I also love " + order + "! Splendid choice!")
 
+numberOrder = int(input("How many " + order + " would you like? \n"))
 
+price = str(8 * numberOrder)
 
-
+print("Your total today will be $" + price)

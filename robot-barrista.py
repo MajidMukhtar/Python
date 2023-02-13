@@ -1,12 +1,21 @@
 # Let's build a robot barrista
+# Video Time: 9:00
 
 print("Hello, welcome to our coffee shop")
 
 #Getting the users name
 name = input("What is your name?\n")
 
-#Greeting the User with their own name
-print("Hello " + name + ", thank you for coming in today.")
+if name == "Ben":
+  #print("You're not welcome here Ben. Get out!!!")
+  reply = input("Are you evil? \n")
+  if reply == "Yes":
+    print("Get out of here you villain!")
+    exit()
+  else:
+    print("Wow, a Ben that isn't evil. I like you!")
+else:
+  print("Hello " + name + ", thank you for coming in today.")
 
 #Items that will be presented to User
 menu = "Black coffee, French Vanilla, Cocunut Latte"

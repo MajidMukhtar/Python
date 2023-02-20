@@ -1,8 +1,7 @@
 # Let's build a robot barrista
-# Video Time: 9:00
+# Video Time: 11:00
 
 print("Hello, welcome to our coffee shop")
-
 
 name = input("What is your name?\n")
 
@@ -17,7 +16,7 @@ if name == "Ben":
 else:
   print("Hello " + name + ", thank you for coming in today.")
 
-menu = "Black coffee, French Vanilla, Cocunut Latte"
+menu = "Black coffee, French Vanilla, Cocunut Latte, Frappucino"
 
 order = input("What can I get you? We offer " + menu + "\n")
 

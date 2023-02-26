@@ -3,7 +3,7 @@
 
 print("Hello, welcome to our coffee shop")
 
-
+# Getting and storing users name
 name = input("What is your name?\n")
 
 if name == "Ben":
